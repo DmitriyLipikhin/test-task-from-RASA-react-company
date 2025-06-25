@@ -1,8 +1,14 @@
-import './app.scss';
-import PageWrapper from '../layot/page-wrapper/page-wrapper';
+import './style.js';
+import PageWrapper from '../layot/page-wrapper/page-wrapper.jsx';
+import { GlobalStyle } from './style';
 
 function App() {
-  return <PageWrapper/>;
+  return (
+    <>
+      <GlobalStyle />
+      <PageWrapper/>
+    </>
+  );
 }
 
 export default App;
