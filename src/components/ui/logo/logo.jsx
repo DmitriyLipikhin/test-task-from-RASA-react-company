@@ -8,8 +8,7 @@ export default function Logo() {
   return (
     <picture>
       <source type="image/webp" srcSet={`${logoWebp}, ${logoWebp2x} 2x`} />
-      <img className="header__logo" src={logoPng} srcSet={`${logoPng2x} 2x`} width="130" height="30" alt="Логотип Солид Банк"
-      />
+      <img className="header__logo" src={logoPng} srcSet={`${logoPng2x} 2x`} width="130" height="30" alt="Логотип Солид Банк"/>
     </picture>
   );
 }

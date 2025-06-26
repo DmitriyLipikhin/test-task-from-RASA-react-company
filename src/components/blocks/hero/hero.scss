@@ -1,0 +1,199 @@
+.hero__container {
+    background-image:
+        image-set("../../../assets/images/hero-bg.png" 1x type("image/png"),
+            "../../../assets/images/hero-bg@2x.png" 2x type("image/png"),
+            "../../../assets/images/hero-bg.webp" 1x type("image/webp"),
+            "../../../assets/images/hero-bg@2x.webp" 2x type("image/webp")),
+            linear-gradient(270deg, #FEE4FF 0%, #EFF9FF 100%);
+    padding: 18px 30px 11px 16px;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    background-color: rgba(164, 196, 255, 0.2);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.hero__container::after {
+    content: "";
+    display: block;
+    width: 200px; 
+    height: 200px; 
+    opacity: 0.50; 
+    background: #D70066; 
+    box-shadow: 300px 300px 300px; 
+    border-radius: 9999px; 
+    filter: blur(67px);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hero__breadcrumbs-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    column-gap: 8px;
+    margin-bottom: 28px;
+}
+
+.hero__breadcrumbs-list .hero__breadcrumbs-item:not(:first-child)::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../../assets/icons/breadcrumbs-icon.svg);
+}
+
+.hero__breadcrumbs-item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #111111;
+    opacity: 0.5;
+    column-gap: 8px;
+}
+
+.hero__breadcrumbs-item--active {
+    opacity: 1;
+}
+
+.hero__text-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 36px;
+    margin-bottom: 7px;
+}
+
+.hero__text-description {
+    margin: 0;
+    margin-bottom: 26px;
+}
+
+.hero__text-button {
+    display: none;
+}
+
+.hero__image {
+    width: 360px;
+    height: 248px;
+    margin-left: -70px;
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+
+.hero__image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .hero__container {
+        padding: 65px 30px 11px 17px;
+        overflow: hidden;
+        min-height: 328px;
+        background-color: #f7f9fa;;
+        background-image:
+        image-set("../../../assets/images/hero-bg-tablet.png" 1x type("image/png"),
+            "../../../assets/images/hero-bg-tablet@2x.png" 2x type("image/png"),
+            "../../../assets/images/hero-bg-tablet.webp" 1x type("image/webp"),
+            "../../../assets/images/hero-bg-tablet@2x.webp" 2x type("image/webp")),
+            linear-gradient(203deg, #FEE4FF 200px, rgba(164, 196, 255, 0.1) 59%);
+        background-position: calc(100% + 42px), center center;
+        background-size: auto;
+
+    }
+
+    .hero__container::after {
+        content: "";
+        display: block;
+        opacity: 0.5;
+        position: absolute;
+        top: 11px;
+        left: 292px;
+        width: 113px;
+        height: 143px;
+        background: #A4C4FF;
+        box-shadow: 150px 150px 150px;
+        border-radius: 9999px;
+        filter: blur(40px);
+    }
+
+    .hero__breadcrumbs {
+        display: none;
+    }
+
+    .hero__text-title {
+        font-size: 38px;
+        margin-bottom: 23px;
+    }
+
+    .hero__text-description {
+        margin-bottom: 23px;
+    }
+
+    .hero__text-button {
+        display: block;
+        width: 231px;
+        min-height: 48px;
+        border: none;
+        background: #760135;
+        padding: 8px;
+        text-align: center;
+        border-radius: 8px;
+        color: #ffffff;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .hero__image-wrapper {
+        position: absolute;
+        right: -175px;
+        top: -50px;
+    }
+
+    .hero__image {
+        width: 530px;
+        height: 375px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .hero__container {
+        min-height: 380px;
+        padding: 16px 60px;
+        background-position: right, center center;
+        background-image:
+        image-set("../../../assets/images/hero-bg-desktop.png" 1x type("image/png"),
+            "../../../assets/images/hero-bg-desktop@2x.png" 2x type("image/png"),
+            "../../../assets/images/hero-bg-desktop.webp" 1x type("image/webp"),
+            "../../../assets/images/hero-bg-desktop@2x.webp" 2x type("image/webp")),
+            linear-gradient(203deg, #FEE4FF 200px, rgba(164, 196, 255, 0.1) 59%);
+    }
+
+    .hero__breadcrumbs {
+        display: block;
+    }
+
+    .hero__breadcrumbs-list {
+        margin-bottom: 82px;
+    }
+
+    .hero__image-wrapper {
+        position: absolute;
+        right: 96px;
+        top: 0px;
+    }
+
+    .hero__image {
+        width: 543px;
+        height: 377px;
+    }
+}

@@ -1,9 +1,15 @@
 import './page-wrapper.scss';
 import Header from '../header/header';
+import Hero from '../../blocks/hero/hero';
 
 function PageWrapper() {
   return (
-    <Header/>
+    <>
+      <Header/>
+      <main className='main'>
+        <Hero/>
+      </main>
+    </>
   );
 }
 
