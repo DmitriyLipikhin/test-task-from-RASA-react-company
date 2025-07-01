@@ -4,7 +4,7 @@
             "../../../assets/images/hero-bg@2x.png" 2x type("image/png"),
             "../../../assets/images/hero-bg.webp" 1x type("image/webp"),
             "../../../assets/images/hero-bg@2x.webp" 2x type("image/webp")),
-            linear-gradient(270deg, #FEE4FF 0%, #EFF9FF 100%);
+        linear-gradient(270deg, #FEE4FF 0%, #EFF9FF 100%);
     padding: 18px 30px 11px 16px;
     background-repeat: no-repeat;
     min-height: 450px;
@@ -20,12 +20,12 @@
 .hero__container::after {
     content: "";
     display: block;
-    width: 200px; 
-    height: 200px; 
-    opacity: 0.50; 
-    background: #D70066; 
-    box-shadow: 300px 300px 300px; 
-    border-radius: 9999px; 
+    width: 200px;
+    height: 200px;
+    opacity: 0.50;
+    background: #D70066;
+    box-shadow: 300px 300px 300px;
+    border-radius: 9999px;
     filter: blur(67px);
     position: absolute;
     right: 0;
@@ -98,12 +98,13 @@
         padding: 65px 30px 11px 17px;
         overflow: hidden;
         min-height: 328px;
-        background-color: #f7f9fa;;
+        background-color: #f7f9fa;
+        ;
         background-image:
-        image-set("../../../assets/images/hero-bg-tablet.png" 1x type("image/png"),
-            "../../../assets/images/hero-bg-tablet@2x.png" 2x type("image/png"),
-            "../../../assets/images/hero-bg-tablet.webp" 1x type("image/webp"),
-            "../../../assets/images/hero-bg-tablet@2x.webp" 2x type("image/webp")),
+            image-set("../../../assets/images/hero-bg-tablet.png" 1x type("image/png"),
+                "../../../assets/images/hero-bg-tablet@2x.png" 2x type("image/png"),
+                "../../../assets/images/hero-bg-tablet.webp" 1x type("image/webp"),
+                "../../../assets/images/hero-bg-tablet@2x.webp" 2x type("image/webp")),
             linear-gradient(203deg, #FEE4FF 200px, rgba(164, 196, 255, 0.1) 59%);
         background-position: calc(100% + 42px), center center;
         background-size: auto;
@@ -171,10 +172,10 @@
         padding: 16px 60px;
         background-position: right, center center;
         background-image:
-        image-set("../../../assets/images/hero-bg-desktop.png" 1x type("image/png"),
-            "../../../assets/images/hero-bg-desktop@2x.png" 2x type("image/png"),
-            "../../../assets/images/hero-bg-desktop.webp" 1x type("image/webp"),
-            "../../../assets/images/hero-bg-desktop@2x.webp" 2x type("image/webp")),
+            image-set("../../../assets/images/hero-bg-desktop.png" 1x type("image/png"),
+                "../../../assets/images/hero-bg-desktop@2x.png" 2x type("image/png"),
+                "../../../assets/images/hero-bg-desktop.webp" 1x type("image/webp"),
+                "../../../assets/images/hero-bg-desktop@2x.webp" 2x type("image/webp")),
             linear-gradient(203deg, #FEE4FF 200px, rgba(164, 196, 255, 0.1) 59%);
     }
 
