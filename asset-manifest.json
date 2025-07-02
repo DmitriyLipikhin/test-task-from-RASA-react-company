@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test-task-from-RASA-react-company/static/css/main.9f9854a2.css",
+    "main.css": "/test-task-from-RASA-react-company/static/css/main.8e7ca4e8.css",
     "main.js": "/test-task-from-RASA-react-company/static/js/main.317d307b.js",
     "static/js/453.453f2ef2.chunk.js": "/test-task-from-RASA-react-company/static/js/453.453f2ef2.chunk.js",
     "static/media/auto12@2x.webp": "/test-task-from-RASA-react-company/static/media/auto12@2x.3631d34e5dfab08242fb.webp",
@@ -124,12 +124,12 @@
     "static/media/breadcrumbs-icon.svg": "/test-task-from-RASA-react-company/static/media/breadcrumbs-icon.b465fc97dc33969b545b.svg",
     "static/media/sublist-arrow.svg": "/test-task-from-RASA-react-company/static/media/sublist-arrow.b414895dda8c890d6581.svg",
     "static/media/select-arrow.svg": "/test-task-from-RASA-react-company/static/media/select-arrow.ecc66fceb3b1f80fe137.svg",
-    "main.9f9854a2.css.map": "/test-task-from-RASA-react-company/static/css/main.9f9854a2.css.map",
+    "main.8e7ca4e8.css.map": "/test-task-from-RASA-react-company/static/css/main.8e7ca4e8.css.map",
     "main.317d307b.js.map": "/test-task-from-RASA-react-company/static/js/main.317d307b.js.map",
     "453.453f2ef2.chunk.js.map": "/test-task-from-RASA-react-company/static/js/453.453f2ef2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f9854a2.css",
+    "static/css/main.8e7ca4e8.css",
     "static/js/main.317d307b.js"
   ]
 }
