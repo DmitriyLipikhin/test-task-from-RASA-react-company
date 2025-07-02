@@ -1,5 +1,5 @@
 .catalog__container {
-    padding: 40px 16px;
+    padding:  40px 16px 31px;
 }
 
 .catalog__top-wrapper {
@@ -97,7 +97,7 @@
     margin-bottom: 24px;
 }
 
-.cagalog__best-description {
+.catalog__best-description {
     display: none;
 }
 
@@ -164,6 +164,7 @@
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 20px;
+    display: block;
 }
 
 .catalog__best-link {
@@ -313,6 +314,10 @@
 
     .catalog__select-link-price {
         min-width: 147px;
+    }
+
+    .catalog__best-list {
+        margin-bottom: 23px;
     }
 
     .catalog__best-item {

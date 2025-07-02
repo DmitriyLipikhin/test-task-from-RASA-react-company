@@ -51,9 +51,14 @@ export default function Catalog ({ catalogAuto, catalogBest}) {
                         {catalogBest.map ((option) => (
                             <li className="catalog__best-item" key={option.id}>
                                 <picture>
+                                <source
+                                    media="(min-width: 768px"
+                                    type="image/webp"
+                                    srcSet={`${images[option.imagedesktop ? option.imagedesktop : option.image]['webp']} 2x`}
+                                    />
                                     <source
                                     type="image/webp"
-                                    srcSet={`${images[option.imagedesktop ? (window.innerWidth > 360 ? option.imagedesktop : option.image):option.image]['webp']}, ${images[option.imagedesktop ? (window.innerWidth > 360 ? option.imagedesktop : option.image):option.image]['webp']} 2x`}
+                                    srcSet={`${images[option.image]['webp']} 2x`}
                                     />
                                     <img
                                     className="catalog__best-image"
